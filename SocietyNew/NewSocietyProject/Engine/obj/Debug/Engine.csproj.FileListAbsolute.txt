@@ -1,7 +1,0 @@
-D:\Универ\ЯиСП Лысачев\SocietyNew\NewSocietyProject\Engine\obj\Debug\Engine.csprojResolveAssemblyReference.cache
-D:\Универ\ЯиСП Лысачев\SocietyNew\NewSocietyProject\Engine\bin\Debug\Engine.dll
-D:\Универ\ЯиСП Лысачев\SocietyNew\NewSocietyProject\Engine\bin\Debug\Engine.pdb
-D:\Универ\ЯиСП Лысачев\SocietyNew\NewSocietyProject\Engine\bin\Debug\World.dll
-D:\Универ\ЯиСП Лысачев\SocietyNew\NewSocietyProject\Engine\bin\Debug\World.pdb
-D:\Универ\ЯиСП Лысачев\SocietyNew\NewSocietyProject\Engine\obj\Debug\Engine.dll
-D:\Универ\ЯиСП Лысачев\SocietyNew\NewSocietyProject\Engine\obj\Debug\Engine.pdb
