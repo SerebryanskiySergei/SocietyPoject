@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B4612E16-C816-44EE-A253-147907FAA279}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>World</RootNamespace>
+    <AssemblyName>World</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Characters\Actions\Attacking.cs" />
+    <Compile Include="Characters\Actions\BuyingInstruments.cs" />
+    <Compile Include="Characters\Actions\BuyingMedicine.cs" />
+    <Compile Include="Characters\Actions\Free.cs" />
+    <Compile Include="Characters\Actions\Patroling.cs" />
+    <Compile Include="Characters\Actions\Selling.cs" />
+    <Compile Include="Characters\Actions\StealMoney.cs" />
+    <Compile Include="Characters\Actions\Trading.cs" />
+    <Compile Include="Characters\Actions\Working.cs" />
+    <Compile Include="Characters\Decision.cs" />
+    <Compile Include="Characters\IPerson.cs" />
+    <Compile Include="Characters\IPersonToStrategy.cs" />
+    <Compile Include="Characters\Professions\Craftsman.cs" />
+    <Compile Include="Characters\Professions\IProfessionDecorator.cs" />
+    <Compile Include="Characters\Professions\Peasant.cs" />
+    <Compile Include="Characters\Professions\Robber.cs" />
+    <Compile Include="Characters\Professions\Trader.cs" />
+    <Compile Include="Characters\Professions\Warrior.cs" />
+    <Compile Include="Characters\Strategies\CraftsmanStrategy.cs" />
+    <Compile Include="Characters\Strategies\IStrategy.cs" />
+    <Compile Include="Characters\Strategies\PeasantStrategy.cs" />
+    <Compile Include="Characters\Strategies\RobberStrategy.cs" />
+    <Compile Include="Characters\Strategies\SafeStrategy.cs" />
+    <Compile Include="Characters\Strategies\TraderStrategy.cs" />
+    <Compile Include="Characters\Strategies\WarriorStrategy.cs" />
+    <Compile Include="Enviroment\Equipment.cs" />
+    <Compile Include="Enviroment\Habitat.cs" />
+    <Compile Include="Enviroment\PersonalEnviroment.cs" />
+    <Compile Include="Kingdom.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomContainer.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

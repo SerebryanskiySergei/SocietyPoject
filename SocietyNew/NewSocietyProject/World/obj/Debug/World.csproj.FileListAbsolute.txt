@@ -1,0 +1,5 @@
+D:\Универ\ЯиСП Лысачев\SocietyNew\NewSocietyProject\World\bin\Debug\World.dll
+D:\Универ\ЯиСП Лысачев\SocietyNew\NewSocietyProject\World\bin\Debug\World.pdb
+D:\Универ\ЯиСП Лысачев\SocietyNew\NewSocietyProject\World\obj\Debug\World.dll
+D:\Универ\ЯиСП Лысачев\SocietyNew\NewSocietyProject\World\obj\Debug\World.pdb
+D:\Универ\ЯиСП Лысачев\SocietyNew\NewSocietyProject\World\obj\Debug\World.csprojResolveAssemblyReference.cache
